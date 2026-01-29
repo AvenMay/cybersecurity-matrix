@@ -1,0 +1,258 @@
+# Project information
+site_name: Cybersecurity Matrix 
+use_directory_urls: true
+
+# Configuration
+theme:
+  name: material
+  custom_dir: overrides
+  icon:
+    # logo: material/rocket-launch
+    logo: material/security
+    # repo: fontawesome/brands/github
+  palette:
+    - scheme: default    # 浅色模式
+      # primary: indigo
+      # accent: indigo
+      primary: orange
+      accent: pink
+      toggle:
+        icon: material/weather-night
+        name: 切换到深色模式
+    - scheme: slate      # 深色模式
+      # primary: indigo
+      # accent: indigo
+      primary: black
+      accent: pink
+      toggle:
+        icon: material/weather-sunny
+        name: 切换到浅色模式
+  features:
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    # - content.code.select
+    # - content.footnote.tooltips
+    # - content.tabs.link
+    - content.tooltips
+    # - header.autohide
+    # - navigation.expand
+    - navigation.footer
+    - navigation.indexes
+    # - navigation.instant
+    # - navigation.instant.prefetch
+    # - navigation.instant.progress
+    # - navigation.prune
+    # - navigation.sections
+    - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+  toc:
+    on_page: true
+    depth: 5
+
+
+# Page tree
+nav:
+  - Home: index.md
+
+  - Cryptography: 
+      - cryptography/index.md
+      - cryptography/crypto-tools.md
+      - cryptography/cryptographic-attack.md
+  - IAM:
+    - iam/index.md
+  - Reverse-Engineering:
+      - reverse-engineering/index.md
+      - Basic-Tools:
+        - reverse-engineering/basic-tools/hex-editor.md
+      - Binary-Analysis:
+        - reverse-engineering/binary-analysis/index.md
+        # - reverse-engineering/binary-analysis/static-analysis.md
+        # - reverse-engineering/binary-analysis/dynamic-analysis.md
+        # - reverse-engineering/binary-analysis/hybrid-analysis.md
+        - Tools:
+          - reverse-engineering/binary-analysis/tools/disassembler.md
+          - reverse-engineering/binary-analysis/tools/debugger.md
+          - reverse-engineering/binary-analysis/tools/symbolic-execution.md
+          - reverse-engineering/binary-analysis/tools/emulator.md
+          - reverse-engineering/binary-analysis/tools/packers.md
+          - reverse-engineering/binary-analysis/tools/unpackers.md
+        - Windows/PE:
+          - reverse-engineering/binary-analysis/pe/index.md
+          - reverse-engineering/binary-analysis/pe/debugger.md
+        - Linux/ELF:
+          - reverse-engineering/binary-analysis/elf/index.md
+        - macOS/Mach-O:
+          - reverse-engineering/binary-analysis/mach-o/index.md
+      - File-Formats:
+        - reverse-engineering/file-formats/index.md
+        # - reverse-engineering/file-formats/pdf.md
+        # - reverse-engineering/file-formats/image-formats.md
+        # - reverse-engineering/file-formats/audio-video.md
+      - Protocol-Analysis:
+        - reverse-engineering/protocol-analysis/index.md
+      - Kernel-Analysis:
+        - reverse-engineering/kernel-analysis/index.md
+      - Bytecode-Analysis:
+        - reverse-engineering/bytecode-analysis/index.md
+        - reverse-engineering/bytecode-analysis/jvm.md
+        - reverse-engineering/bytecode-analysis/clr.md
+        - reverse-engineering/bytecode-analysis/pyc.md
+      - Firmware-Analysis:
+        - reverse-engineering/firmware-analysis/index.md
+      - Hardware-Analysis:
+        - reverse-engineering/hardware-analysis/index.md
+  - Network-Security:
+    - network-security/index.md
+    - Packet-Capture:
+      - network-security/packet-capture/index.md
+    - Traffic-Analysis:
+      - network-security/traffic-analysis/index.md
+    - Protocol-Security:
+      - network-security/protocol-security/index.md
+    - Wireless-Security:
+      - network-security/wireless-security/index.md
+    - MitM:
+      - network-security/mitm/index.md
+    - E2EE:
+      - network-security/e2ee/index.md
+    - Pentesting:
+      - network-security/pentesting/index.md
+    - Protection:
+      - network-security/protection/index.md
+    - NAT-Traversal:
+      - network-security/nat-traversal/index.md
+    
+  - Application-Security:
+    - application-security/index.md
+    - Reference-Frame:
+      - application-security/reference-frame/index.md
+    - Server-Side Security:
+      - application-security/server-side/index.md
+    - API-Security:
+      - application-security/api-security/index.md
+    - Business-Logic:
+      - application-security/business-logic/index.md
+    - Web-Frontend Security:
+      - application-security/web-frontend/index.md
+      - application-security/web-frontend/javascript-reverse.md
+    - Mobile-Security:
+      - application-security/mobile-security/index.md
+    - Vulnerability-Reproduction:
+      - application-security/vulnerability-reproduction/index.md
+    - DAST/Pentesting:
+      - application-security/dast/index.md
+      - application-security/dast/ast.md
+    - SDL/SAST:
+      - application-security/sdl/index.md
+      - application-security/sdl/sdl.md
+      - application-security/sdl/devsecops.md
+      - application-security/sdl/sast.md
+      - application-security/sdl/sca.md
+      - application-security/sdl/iast.md
+    - Protection:
+      - application-security/protection/waf.md
+      - application-security/protection/rasp.md 
+  - IoT-Security:
+    - iot-security/index.md
+  - Cloud-Security:
+    - cloud-security/index.md
+
+
+  - CTF:
+    - ctf/index.md
+    # - ctf/crypto.md
+    # - ctf/misc.md
+    # - ctf/web.md
+    # - ctf/reverse.md
+    # - ctf/pwn.md
+
+  - Offensive-Security:
+    - offensive-security/index.md
+    - Red-Teaming:
+      - offensive-security/red-teaming/index.md
+    - Reconnaissance:
+      - offensive-security/reconnaissance/index.md
+    - Penetration-Testing:
+      - offensive-security/penetration-testing/index.md
+    - Binary-Analysis:
+      - offensive-security/binary-analysis/index.md
+      - Binary Exploitation:
+        - offensive-security/binary-analysis/binary-exploitation/index.md
+    - Bug-Bounty:
+      - offensive-security/bug-bounty/index.md
+    - Social-Engineering:
+      - offensive-security/social-engineering/index
+
+  - Defensive-Security:
+    - defensive-security/index.md
+    - Blue-Teaming:
+      - defensive-security/blue-teaming/index.md
+    - GRC:
+      - defensive-security/grc/index.md
+    - Data-Security:
+      - defensive-security/data-security/index.md
+    - Defense-In-Depth:
+      - defensive-security/dind/index.md
+      - Zero-Trust:
+        - defensive-security/dind/zero-trust/index.md
+    - Malware-Analysis:
+      - defensive-security/malware-analysis/index.md
+    - Endpoint-Security:
+      - /defensive-security/endpoint-security/index.md
+    - SOC/SIEM:
+      - defensive-security/soc/index.md
+    - Incident-Response:
+      - defensive-security/incident-response/index.md
+      - defensive-security/incident-response/digital-forensics.md
+    - Threat-Hunting:
+      - defensive-security/threat-hunting/index.md
+    - Vulnerability-Databases:
+      - vulnerability-databases/index.md
+      
+
+plugins:
+  - search
+  - macros
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - toc:
+      permalink: true
+  - footnotes
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - pymdownx.arithmatex:
+      generic: true 
+
+extra:
+  files_server: "https://files.cyberspace.bar"
+  # files_server: "https://files.cyberspace.bar/cyberspace-explore"
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js 
