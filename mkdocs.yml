@@ -14,7 +14,7 @@ theme:
     - scheme: default    # 浅色模式
       # primary: indigo
       # accent: indigo
-      primary: orange
+      primary: grey
       accent: pink
       toggle:
         icon: material/weather-night
