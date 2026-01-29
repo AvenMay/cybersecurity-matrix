@@ -11,22 +11,9 @@ theme:
     logo: material/security
     # repo: fontawesome/brands/github
   palette:
-    - scheme: default    # 浅色模式
-      # primary: indigo
-      # accent: indigo
-      primary: grey
-      accent: pink
-      toggle:
-        icon: material/weather-night
-        name: 切换到深色模式
     - scheme: slate      # 深色模式
-      # primary: indigo
-      # accent: indigo
       primary: black
-      accent: pink
-      toggle:
-        icon: material/weather-sunny
-        name: 切换到浅色模式
+      accent: orange
   features:
     - announce.dismiss
     - content.action.edit
