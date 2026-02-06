@@ -130,15 +130,14 @@ nav:
       - application-security/server-side/index.md
     - API-Security:
       - application-security/api-security/index.md
-    - Business-Logic:
+    - Business-Logic Security:
       - application-security/business-logic/index.md
     - Web-Frontend Security:
       - application-security/web-frontend/index.md
       - application-security/web-frontend/javascript-reverse.md
     - Mobile-Security:
       - application-security/mobile-security/index.md
-    - Vulnerability-Reproduction:
-      - application-security/vulnerability-reproduction/index.md
+
     - DAST/Pentesting:
       - application-security/dast/index.md
       - application-security/dast/ast.md
@@ -149,6 +148,8 @@ nav:
       - application-security/sdl/sast.md
       - application-security/sdl/sca.md
       - application-security/sdl/iast.md
+    - Vulnerability-Reproduction:
+      - application-security/vulnerability-reproduction/index.md
     - Protection:
       - application-security/protection/waf.md
       - application-security/protection/rasp.md 
