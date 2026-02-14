@@ -52,14 +52,22 @@ theme:
 
 # Page tree
 nav:
-  - Home: index.md
+  # - Home: index.md
 
   - Cryptography: 
       - cryptography/index.md
       - cryptography/crypto-tools.md
       - cryptography/cryptographic-attack.md
-  - IAM:
-    - iam/index.md
+  # - IAM:
+  #   - iam/index.md
+  - CTF:
+    - ctf/index.md
+    # - ctf/crypto.md
+    # - ctf/misc.md
+    # - ctf/web.md
+    # - ctf/reverse.md
+    # - ctf/pwn.md
+
   - Reverse-Engineering:
       - reverse-engineering/index.md
       - Basic-Tools:
@@ -101,26 +109,7 @@ nav:
         - reverse-engineering/firmware-analysis/index.md
       - Hardware-Analysis:
         - reverse-engineering/hardware-analysis/index.md
-  - Network-Security:
-    - network-security/index.md
-    - Packet-Capture:
-      - network-security/packet-capture/index.md
-    - Traffic-Analysis:
-      - network-security/traffic-analysis/index.md
-    - Protocol-Security:
-      - network-security/protocol-security/index.md
-    - Wireless-Security:
-      - network-security/wireless-security/index.md
-    - MitM:
-      - network-security/mitm/index.md
-    - E2EE:
-      - network-security/e2ee/index.md
-    - Pentesting:
-      - network-security/pentesting/index.md
-    - Protection:
-      - network-security/protection/index.md
-    - NAT-Traversal:
-      - network-security/nat-traversal/index.md
+
     
   - Application-Security:
     - application-security/index.md
@@ -153,19 +142,36 @@ nav:
     - Protection:
       - application-security/protection/waf.md
       - application-security/protection/rasp.md 
+
+  - Network-Security:
+    - network-security/index.md
+    - Packet-Capture:
+      - network-security/packet-capture/index.md
+    - Traffic-Analysis:
+      - network-security/traffic-analysis/index.md
+    - Protocol-Security:
+      - network-security/protocol-security/index.md
+    - Wireless-Security:
+      - network-security/wireless-security/index.md
+    - MitM:
+      - network-security/mitm/index.md
+    - E2EE:
+      - network-security/e2ee/index.md
+    - Pentesting:
+      - network-security/pentesting/index.md
+    - Protection:
+      - network-security/protection/index.md
+    - NAT-Traversal:
+      - network-security/nat-traversal/index.md
+
+  - OS-Security:
+    - os-security/index.md
+
   - IoT-Security:
     - iot-security/index.md
   - Cloud-Security:
     - cloud-security/index.md
 
-
-  - CTF:
-    - ctf/index.md
-    # - ctf/crypto.md
-    # - ctf/misc.md
-    # - ctf/web.md
-    # - ctf/reverse.md
-    # - ctf/pwn.md
 
   - Offensive-Security:
     - offensive-security/index.md
