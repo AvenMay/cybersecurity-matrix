@@ -167,10 +167,10 @@ nav:
   - OS-Security:
     - os-security/index.md
 
-  - IoT-Security:
-    - iot-security/index.md
-  - Cloud-Security:
-    - cloud-security/index.md
+  # - IoT-Security:
+  #   - iot-security/index.md
+  # - Cloud-Security:
+  #   - cloud-security/index.md
 
 
   - Offensive-Security:
