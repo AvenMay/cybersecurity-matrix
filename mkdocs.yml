@@ -60,13 +60,6 @@ nav:
       - cryptography/cryptographic-attack.md
   # - IAM:
   #   - iam/index.md
-  - CTF:
-    - ctf/index.md
-    # - ctf/crypto.md
-    # - ctf/misc.md
-    # - ctf/web.md
-    # - ctf/reverse.md
-    # - ctf/pwn.md
 
   - Reverse-Engineering:
       - reverse-engineering/index.md
@@ -109,7 +102,13 @@ nav:
         - reverse-engineering/firmware-analysis/index.md
       - Hardware-Analysis:
         - reverse-engineering/hardware-analysis/index.md
-
+  - CTF:
+    - ctf/index.md
+    # - ctf/crypto.md
+    # - ctf/misc.md
+    # - ctf/web.md
+    # - ctf/reverse.md
+    # - ctf/pwn.md
     
   - Application-Security:
     - application-security/index.md
@@ -167,11 +166,6 @@ nav:
   - OS-Security:
     - os-security/index.md
 
-  # - IoT-Security:
-  #   - iot-security/index.md
-  # - Cloud-Security:
-  #   - cloud-security/index.md
-
 
   - Offensive-Security:
     - offensive-security/index.md
@@ -216,6 +210,12 @@ nav:
     - Vulnerability-Databases:
       - vulnerability-databases/index.md
       
+  - Cloud-Security:
+    - cloud-security/index.md
+
+  - IoT-Security:
+    - iot-security/index.md
+
 
 plugins:
   - search
