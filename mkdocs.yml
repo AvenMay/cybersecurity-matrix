@@ -102,13 +102,6 @@ nav:
         - reverse-engineering/firmware-analysis/index.md
       - Hardware-Analysis:
         - reverse-engineering/hardware-analysis/index.md
-  - CTF:
-    - ctf/index.md
-    # - ctf/crypto.md
-    # - ctf/misc.md
-    # - ctf/web.md
-    # - ctf/reverse.md
-    # - ctf/pwn.md
     
   - Application-Security:
     - application-security/index.md
@@ -166,6 +159,13 @@ nav:
   - OS-Security:
     - os-security/index.md
 
+  - CTF:
+    - ctf/index.md
+    # - ctf/crypto.md
+    # - ctf/misc.md
+    # - ctf/web.md
+    # - ctf/reverse.md
+    # - ctf/pwn.md
 
   - Offensive-Security:
     - offensive-security/index.md
