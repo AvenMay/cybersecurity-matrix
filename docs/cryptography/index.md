@@ -17,7 +17,7 @@
 
 ## Getting Started
 
-- [Encoding](/software-engineering/programming/preparation/encoding/)
+<!-- - [Encoding](/software-engineering/programming/preparation/encoding/) -->
 - Classical-Cryptography
 
 

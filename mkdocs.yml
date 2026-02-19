@@ -58,51 +58,119 @@ nav:
       - cryptography/index.md
       - cryptography/crypto-tools.md
       - cryptography/cryptographic-attack.md
-  # - IAM:
-  #   - iam/index.md
 
-  - Reverse-Engineering:
-      - reverse-engineering/index.md
-      - Basic-Tools:
-        - reverse-engineering/basic-tools/hex-editor.md
-      - Binary-Analysis:
-        - reverse-engineering/binary-analysis/index.md
-        # - reverse-engineering/binary-analysis/static-analysis.md
-        # - reverse-engineering/binary-analysis/dynamic-analysis.md
-        # - reverse-engineering/binary-analysis/hybrid-analysis.md
-        - Tools:
-          - reverse-engineering/binary-analysis/tools/disassembler.md
-          - reverse-engineering/binary-analysis/tools/debugger.md
-          - reverse-engineering/binary-analysis/tools/symbolic-execution.md
-          - reverse-engineering/binary-analysis/tools/emulator.md
-          - reverse-engineering/binary-analysis/tools/packers.md
-          - reverse-engineering/binary-analysis/tools/unpackers.md
-        - Windows/PE:
-          - reverse-engineering/binary-analysis/pe/index.md
-          - reverse-engineering/binary-analysis/pe/debugger.md
-        - Linux/ELF:
-          - reverse-engineering/binary-analysis/elf/index.md
-        - macOS/Mach-O:
-          - reverse-engineering/binary-analysis/mach-o/index.md
-      - File-Formats:
-        - reverse-engineering/file-formats/index.md
-        # - reverse-engineering/file-formats/pdf.md
-        # - reverse-engineering/file-formats/image-formats.md
-        # - reverse-engineering/file-formats/audio-video.md
-      - Protocol-Analysis:
-        - reverse-engineering/protocol-analysis/index.md
-      - Kernel-Analysis:
-        - reverse-engineering/kernel-analysis/index.md
-      - Bytecode-Analysis:
-        - reverse-engineering/bytecode-analysis/index.md
-        - reverse-engineering/bytecode-analysis/jvm.md
-        - reverse-engineering/bytecode-analysis/clr.md
-        - reverse-engineering/bytecode-analysis/pyc.md
-      - Firmware-Analysis:
-        - reverse-engineering/firmware-analysis/index.md
-      - Hardware-Analysis:
-        - reverse-engineering/hardware-analysis/index.md
+  - CTF:
+    - ctf/index.md
+    # - ctf/crypto.md
+    # - ctf/misc.md
+    # - ctf/web.md
+    # - ctf/reverse.md
+    # - ctf/pwn.md
+
+  - Offensive-Security:
+    - offensive-security/index.md
+    - Offensive-Practices:
+      - offensive-security/offensive-practices/index.md
+      - offensive-security/offensive-practices/red-teaming.md
+      - offensive-security/offensive-practices/pentesting.md
+      - offensive-security/offensive-practices/bug-bounty.md
+      - offensive-security/offensive-practices/bas.md
+      - offensive-security/offensive-practices/vulnerability-assessment.md
+    - TTPs:
+      - offensive-security/ttps/index.md
+      - offensive-security/ttps/apt.md
+      - offensive-security/ttps/att-ck.md
+      - offensive-security/ttps/cyber-kill-chain.md
+    - Framework:
+       - offensive-security/frameworks/index.md
+    - Binary-Exploitation:
+      - offensive-security/binary-exploitation/index.md
+    - Reconnaissance:
+      - offensive-security/reconnaissance/index.md
+    - Password-Attack:
+      - offensive-security/password-attack/index.md
+    - Initial-Access:
+      - offensive-security/initial-Access/index.md
+    - Post-Exploitation:
+      - offensive-security/post-exploitation/index.md
+    - C2:
+      - offensive-security/c2/index.md
+    - Payloads:
+      - offensive-security/payloads/index.md
+    - Resource-Development:
+      - offensive-security/resource-development/index.md
+    - Training:
+      - offensive-security/training/index.md
     
+
+  - Defensive-Security:
+    - defensive-security/index.md
+    - Blue-Teaming:
+      - defensive-security/blue-teaming/index.md
+    - GRC:
+      - defensive-security/grc/index.md
+    - Data-Security:
+      - defensive-security/data-security/index.md
+    - Defense-In-Depth:
+      - defensive-security/dind/index.md
+      - Zero-Trust:
+        - defensive-security/dind/zero-trust/index.md
+    - Malware-Analysis:
+      - defensive-security/malware-analysis/index.md
+    - Endpoint-Security:
+      - /defensive-security/endpoint-security/index.md
+    - SOC/SIEM:
+      - defensive-security/soc/index.md
+    - Incident-Response:
+      - defensive-security/incident-response/index.md
+      - defensive-security/incident-response/digital-forensics.md
+    - Threat-Hunting:
+      - defensive-security/threat-hunting/index.md
+    - Vulnerability-Databases:
+      - vulnerability-databases/index.md
+      
+  - Reverse-Engineering:
+    - reverse-engineering/index.md
+    - Basic-Tools:
+      - reverse-engineering/basic-tools/hex-editor.md
+    - Binary-Analysis:
+      - reverse-engineering/binary-analysis/index.md
+      # - reverse-engineering/binary-analysis/static-analysis.md
+      # - reverse-engineering/binary-analysis/dynamic-analysis.md
+      # - reverse-engineering/binary-analysis/hybrid-analysis.md
+      - Tools:
+        - reverse-engineering/binary-analysis/tools/disassembler.md
+        - reverse-engineering/binary-analysis/tools/debugger.md
+        - reverse-engineering/binary-analysis/tools/symbolic-execution.md
+        - reverse-engineering/binary-analysis/tools/emulator.md
+        - reverse-engineering/binary-analysis/tools/packers.md
+        - reverse-engineering/binary-analysis/tools/unpackers.md
+      - Windows/PE:
+        - reverse-engineering/binary-analysis/pe/index.md
+        - reverse-engineering/binary-analysis/pe/debugger.md
+      - Linux/ELF:
+        - reverse-engineering/binary-analysis/elf/index.md
+      - macOS/Mach-O:
+        - reverse-engineering/binary-analysis/mach-o/index.md
+    - File-Formats:
+      - reverse-engineering/file-formats/index.md
+      # - reverse-engineering/file-formats/pdf.md
+      # - reverse-engineering/file-formats/image-formats.md
+      # - reverse-engineering/file-formats/audio-video.md
+    - Protocol-Analysis:
+      - reverse-engineering/protocol-analysis/index.md
+    - Kernel-Analysis:
+      - reverse-engineering/kernel-analysis/index.md
+    - Bytecode-Analysis:
+      - reverse-engineering/bytecode-analysis/index.md
+      - reverse-engineering/bytecode-analysis/jvm.md
+      - reverse-engineering/bytecode-analysis/clr.md
+      - reverse-engineering/bytecode-analysis/pyc.md
+    - Firmware-Analysis:
+      - reverse-engineering/firmware-analysis/index.md
+    - Hardware-Analysis:
+      - reverse-engineering/hardware-analysis/index.md
+
   - Application-Security:
     - application-security/index.md
     - Reference-Frame:
@@ -159,57 +227,6 @@ nav:
   - OS-Security:
     - os-security/index.md
 
-  - CTF:
-    - ctf/index.md
-    # - ctf/crypto.md
-    # - ctf/misc.md
-    # - ctf/web.md
-    # - ctf/reverse.md
-    # - ctf/pwn.md
-
-  - Offensive-Security:
-    - offensive-security/index.md
-    - Red-Teaming:
-      - offensive-security/red-teaming/index.md
-    - Reconnaissance:
-      - offensive-security/reconnaissance/index.md
-    - Penetration-Testing:
-      - offensive-security/penetration-testing/index.md
-    - Binary-Analysis:
-      - offensive-security/binary-analysis/index.md
-      - Binary Exploitation:
-        - offensive-security/binary-analysis/binary-exploitation/index.md
-    - Bug-Bounty:
-      - offensive-security/bug-bounty/index.md
-    - Social-Engineering:
-      - offensive-security/social-engineering/index
-
-  - Defensive-Security:
-    - defensive-security/index.md
-    - Blue-Teaming:
-      - defensive-security/blue-teaming/index.md
-    - GRC:
-      - defensive-security/grc/index.md
-    - Data-Security:
-      - defensive-security/data-security/index.md
-    - Defense-In-Depth:
-      - defensive-security/dind/index.md
-      - Zero-Trust:
-        - defensive-security/dind/zero-trust/index.md
-    - Malware-Analysis:
-      - defensive-security/malware-analysis/index.md
-    - Endpoint-Security:
-      - /defensive-security/endpoint-security/index.md
-    - SOC/SIEM:
-      - defensive-security/soc/index.md
-    - Incident-Response:
-      - defensive-security/incident-response/index.md
-      - defensive-security/incident-response/digital-forensics.md
-    - Threat-Hunting:
-      - defensive-security/threat-hunting/index.md
-    - Vulnerability-Databases:
-      - vulnerability-databases/index.md
-      
   - Cloud-Security:
     - cloud-security/index.md
 
@@ -250,3 +267,6 @@ extra:
 
 extra_javascript:
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js 
+
+extra_css:
+  - stylesheets/extra.css
