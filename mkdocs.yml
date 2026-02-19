@@ -90,7 +90,7 @@ nav:
     - Password-Attack:
       - offensive-security/password-attack/index.md
     - Initial-Access:
-      - offensive-security/initial-Access/index.md
+      - offensive-security/initial-access/index.md
     - Post-Exploitation:
       - offensive-security/post-exploitation/index.md
     - C2:
