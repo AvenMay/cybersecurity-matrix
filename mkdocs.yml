@@ -52,12 +52,6 @@ theme:
 
 # Page tree
 nav:
-  # - Home: index.md
-
-  - Cryptography: 
-      - cryptography/index.md
-      - cryptography/crypto-tools.md
-      - cryptography/cryptographic-attack.md
 
   - CTF:
     - ctf/index.md
@@ -69,6 +63,11 @@ nav:
 
   - Offensive-Security:
     - offensive-security/index.md
+    - TTPs-Reference:
+      - offensive-security/ttps/index.md
+      - offensive-security/ttps/apt.md
+      - offensive-security/ttps/cyber-kill-chain.md
+      - offensive-security/ttps/att-ck.md
     - Offensive-Practices:
       - offensive-security/offensive-practices/index.md
       - offensive-security/offensive-practices/red-teaming.md
@@ -76,59 +75,62 @@ nav:
       - offensive-security/offensive-practices/bug-bounty.md
       - offensive-security/offensive-practices/bas.md
       - offensive-security/offensive-practices/vulnerability-assessment.md
-    - TTPs:
-      - offensive-security/ttps/index.md
-      - offensive-security/ttps/apt.md
-      - offensive-security/ttps/att-ck.md
-      - offensive-security/ttps/cyber-kill-chain.md
-    - Framework:
-       - offensive-security/frameworks/index.md
-    - Binary-Exploitation:
-      - offensive-security/binary-exploitation/index.md
-    - Reconnaissance:
-      - offensive-security/reconnaissance/index.md
-    - Password-Attack:
-      - offensive-security/password-attack/index.md
-    - Initial-Access:
-      - offensive-security/initial-access/index.md
-    - Post-Exploitation:
-      - offensive-security/post-exploitation/index.md
-    - C2:
-      - offensive-security/c2/index.md
-    - Payloads:
-      - offensive-security/payloads/index.md
-    - Resource-Development:
-      - offensive-security/resource-development/index.md
     - Training:
       - offensive-security/training/index.md
-    
+    - Skills/Tools:
+      - offensive-security/skills-tools/index.md
+      - Reconnaissance:
+        - offensive-security/skills-tools/reconnaissance/index.md
+      - Framework:
+        - offensive-security/skills-tools/frameworks/index.md
+      - Binary-Exploitation:
+        - offensive-security/skills-tools/binary-exploitation/index.md
+      - Password-Attack:
+        - offensive-security/skills-tools/password-attack/index.md
+      - Initial-Access:
+        - offensive-security/skills-tools/initial-access/index.md
+      - Post-Exploitation:
+        - offensive-security/skills-tools/post-exploitation/index.md
+      - C2:
+        - offensive-security/skills-tools/c2/index.md
+      - Payloads:
+        - offensive-security/skills-tools/payloads/index.md
+      - Resource-Development:
+        - offensive-security/skills-tools/resource-development/index.md
 
   - Defensive-Security:
     - defensive-security/index.md
-    - Blue-Teaming:
-      - defensive-security/blue-teaming/index.md
-    - GRC:
-      - defensive-security/grc/index.md
-    - Data-Security:
-      - defensive-security/data-security/index.md
-    - Defense-In-Depth:
-      - defensive-security/dind/index.md
-      - Zero-Trust:
-        - defensive-security/dind/zero-trust/index.md
-    - Malware-Analysis:
-      - defensive-security/malware-analysis/index.md
-    - Endpoint-Security:
-      - /defensive-security/endpoint-security/index.md
-    - SOC/SIEM:
-      - defensive-security/soc/index.md
-    - Incident-Response:
-      - defensive-security/incident-response/index.md
-      - defensive-security/incident-response/digital-forensics.md
-    - Threat-Hunting:
-      - defensive-security/threat-hunting/index.md
-    - Vulnerability-Databases:
-      - vulnerability-databases/index.md
+    - IOCs-Reference:
+      - offensive-security/iocs/index.md
+    - Defensive-Practices:
+      - Blue-Teaming:
+        - defensive-security/defensive-practices/blue-teaming/index.md
+      - SOC:
+        - defensive-security/defensive-practices/soc/index.md
+      - Vulnerability-Management:
+        - defensive-security/defensive-practices/vulnerability-management/index.md
+    - Training:
+      - defensive-security/training/index.md
+    - Skills/Tools:
+      - defensive-security/skills-tools/index.md
+      - Defense-In-Depth:
+        - defensive-security/skills-tools/dind/index.md
+        - Zero-Trust:
+          - defensive-security/skills-tools/dind/zero-trust/index.md
+      - Malware-Analysis:
+        - defensive-security/skills-tools/malware-analysis/index.md
+      - Incident-Response:
+        - defensive-security/skills-tools/incident-response/index.md
+        - defensive-security/skills-tools/incident-response/digital-forensics.md
+      - Threat-Hunting:
+        - defensive-security/skills-tools/threat-hunting/index.md
+
       
+  - Cryptography: 
+    - cryptography/index.md
+    - cryptography/crypto-tools.md
+    - cryptography/cryptographic-attack.md
+
   - Reverse-Engineering:
     - reverse-engineering/index.md
     - Basic-Tools:
