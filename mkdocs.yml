@@ -171,7 +171,7 @@ nav:
     - Hardware-Analysis:
       - reverse-engineering/hardware-analysis/index.md
 
-  - Application-Security:
+  - App/Web-Security:
     - application-security/index.md
     - Reference-Frame:
       - application-security/reference-frame/index.md
@@ -230,7 +230,7 @@ nav:
   - Cloud-Security:
     - cloud-security/index.md
 
-  - IoT-Security:
+  - IoT/ICS-Security:
     - iot-security/index.md
 
 
