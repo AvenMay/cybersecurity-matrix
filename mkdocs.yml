@@ -226,13 +226,13 @@ nav:
     - NAT-Traversal:
       - network-security/nat-traversal/index.md
 
-  - OS-Security:
-    - os-security/index.md
+  - System-Security:
+    - system-security/index.md
 
   - Cloud-Security:
     - cloud-security/index.md
 
-  - IoT/ICS-Security:
+  - IoT/OT-Security:
     - iot-security/index.md
 
 
