@@ -111,8 +111,6 @@ nav:
         - defensive-security/practices/blue-teaming/index.md
       - SOC:
         - defensive-security/practices/soc/index.md
-      - Vulnerability-Management:
-        - defensive-security/practices/vulnerability-management/index.md
     - Training:
       - defensive-security/training/index.md
     - Skills/Tools:
@@ -121,13 +119,17 @@ nav:
         - defensive-security/skills-tools/dind/index.md
         - Zero-Trust:
           - defensive-security/skills-tools/dind/zero-trust/index.md
-      - Malware-Analysis:
-        - defensive-security/skills-tools/malware-analysis/index.md
+      - Digital-Forensics:
+        - defensive-security/skills-tools/digital-forensics/index.md
       - Incident-Response:
         - defensive-security/skills-tools/incident-response/index.md
         - defensive-security/skills-tools/incident-response/digital-forensics.md
       - Threat-Hunting:
         - defensive-security/skills-tools/threat-hunting/index.md
+      - Malware-Analysis:
+        - defensive-security/skills-tools/malware-analysis/index.md
+      - Vulnerability-Management:
+        - defensive-security/skills-tools/vulnerability-management/index.md
 
       
   - Cryptography: 
