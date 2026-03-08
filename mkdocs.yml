@@ -105,7 +105,7 @@ nav:
   - Defensive-Security:
     - defensive-security/index.md
     - IOCs:
-      - offensive-security/iocs/index.md
+      - defensive-security/iocs/index.md
     - Practices:
       - Blue-Teaming:
         - defensive-security/practices/blue-teaming/index.md
