@@ -81,26 +81,26 @@ nav:
       - offensive-security/practices/vulnerability-assessment.md
     - Training:
       - offensive-security/training/index.md
-    - Skills/Tools:
-      - offensive-security/skills-tools/index.md
+    - Operations:
+      - offensive-security/operations/index.md
       - Reconnaissance:
-        - offensive-security/skills-tools/reconnaissance/index.md
+        - offensive-security/operations/reconnaissance/index.md
       - Framework:
-        - offensive-security/skills-tools/frameworks/index.md
+        - offensive-security/operations/frameworks/index.md
       - Binary-Exploitation:
-        - offensive-security/skills-tools/binary-exploitation/index.md
+        - offensive-security/operations/binary-exploitation/index.md
       - Password-Attack:
-        - offensive-security/skills-tools/password-attack/index.md
+        - offensive-security/operations/password-attack/index.md
       - Initial-Access:
-        - offensive-security/skills-tools/initial-access/index.md
+        - offensive-security/operations/initial-access/index.md
       - Post-Exploitation:
-        - offensive-security/skills-tools/post-exploitation/index.md
+        - offensive-security/operations/post-exploitation/index.md
       - C2:
-        - offensive-security/skills-tools/c2/index.md
+        - offensive-security/operations/c2/index.md
       - Payloads:
-        - offensive-security/skills-tools/payloads/index.md
+        - offensive-security/operations/payloads/index.md
       - Resource-Development:
-        - offensive-security/skills-tools/resource-development/index.md
+        - offensive-security/operations/resource-development/index.md
 
   - Defensive-Security:
     - defensive-security/index.md
@@ -113,25 +113,23 @@ nav:
         - defensive-security/practices/soc/index.md
     - Training:
       - defensive-security/training/index.md
-    - Skills/Tools:
-      - defensive-security/skills-tools/index.md
+    - Opeartions:
+      - defensive-security/operations/index.md
       - Defense-In-Depth:
-        - defensive-security/skills-tools/dind/index.md
+        - defensive-security/operations/dind/index.md
         - Zero-Trust:
-          - defensive-security/skills-tools/dind/zero-trust/index.md
+          - defensive-security/operations/dind/zero-trust/index.md
       - Digital-Forensics:
-        - defensive-security/skills-tools/digital-forensics/index.md
+        - defensive-security/operations/digital-forensics/index.md
       - Incident-Response:
-        - defensive-security/skills-tools/incident-response/index.md
-        - defensive-security/skills-tools/incident-response/digital-forensics.md
+        - defensive-security/operations/incident-response/index.md
+        - defensive-security/operations/incident-response/digital-forensics.md
       - Threat-Hunting:
-        - defensive-security/skills-tools/threat-hunting/index.md
+        - defensive-security/operations/threat-hunting/index.md
       - Malware-Analysis:
-        - defensive-security/skills-tools/malware-analysis/index.md
-      - Vulnerability-Management:
-        - defensive-security/skills-tools/vulnerability-management/index.md
+        - defensive-security/operations/malware-analysis/index.md
 
-      
+
   - Cryptography: 
     - cryptography/index.md
     - cryptography/tools.md
