@@ -178,50 +178,39 @@ nav:
       - topics/reverse-engineering/hardware/index.md
 
   - App/Web-Security:
-    - topics/application-security/index.md
+    - topics/app-security/index.md
     - Reference:
-      - topics/application-security/reference/index.md
+      - topics/app-security/reference/index.md
     - Surfaces:
-      - topics/application-security/surfaces/index.md
+      - topics/app-security/surfaces/index.md
       - App-Server:
-        - topics/application-security/surfaces/app-server/index.md
+        - topics/app-security/surfaces/app-server/index.md
         - Business-Logic:
-          - topics/application-security/app-server/business-logic/index.md
+          - topics/app-security/app-server/business-logic/index.md
       - API-Security:
-        - topics/application-security/surfaces/api-security/index.md
+        - topics/app-security/surfaces/api-security/index.md
       - Web-Client:
-<<<<<<< HEAD
-        - topics/application-security/surfaces/web-client/index.md
-        - topics/application-security/surfaces/web-client/javascript-reverse.md
-      - Mobile-Client:
-        - application-security/surfaces/mobile-client/index.md
-=======
-        - topics/application-security/surfaces/web-client/index.md
-        - topics/application-security/surfaces/web-client/javascript-reverse.md
+        - topics/app-security/surfaces/web-client/index.md
+        - topics/app-security/surfaces/web-client/javascript-reverse.md
       - Mobile-Security:
-        - topics/application-security/surfaces/mobile-security/index.md
->>>>>>> 2c83102e9b9ab83c40fee7695841fa5a256ca38c
+        - topics/app-security/surfaces/mobile-security/index.md
     - Security-Testing:
-      - topics/application-security/security-testing/index.md
+      - topics/app-security/security-testing/index.md
       - DAST:
-<<<<<<< HEAD
-        - topics/application-security/security-testing/dast/index.md
-=======
-        - topics/application-security/security-testing/dast/index.md
-        - topics/application-security/security-testing/dast/ast.md
->>>>>>> 2c83102e9b9ab83c40fee7695841fa5a256ca38c
+        - topics/app-security/security-testing/dast/index.md
+        - topics/app-security/security-testing/dast/ast.md
       - SAST/SDL:
-        - topics/application-security/security-testing/sdl/index.md
-        - topics/application-security/security-testing/sdl/sdl.md
-        - topics/application-security/security-testing/sdl/devsecops.md
-        - topics/application-security/security-testing/sdl/sast.md
-        - topics/application-security/security-testing/sdl/sca.md
-        - topics/application-security/security-testing/sdl/iast.md
+        - topics/app-security/security-testing/sdl/index.md
+        - topics/app-security/security-testing/sdl/sdl.md
+        - topics/app-security/security-testing/sdl/devsecops.md
+        - topics/app-security/security-testing/sdl/sast.md
+        - topics/app-security/security-testing/sdl/sca.md
+        - topics/app-security/security-testing/sdl/iast.md
     - Vuln-Reproduction:
-      - topics/application-security/vulnerability-reproduction/index.md
+      - topics/app-security/vulnerability-reproduction/index.md
     - Protection:
-      - topics/application-security/protection/waf.md
-      - topics/application-security/protection/rasp.md 
+      - topics/app-security/protection/waf.md
+      - topics/app-security/protection/rasp.md 
 
   - Network-Security:
     - topics/network-security/index.md
