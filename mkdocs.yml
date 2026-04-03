@@ -191,8 +191,8 @@ nav:
         - topics/application-security/surfaces/api-security/index.md
       - Web-Client:
 <<<<<<< HEAD
-        - application-security/surfaces/web-client/index.md
-        - application-security/surfaces/web-client/javascript-reverse.md
+        - topics/application-security/surfaces/web-client/index.md
+        - topics/application-security/surfaces/web-client/javascript-reverse.md
       - Mobile-Client:
         - application-security/surfaces/mobile-client/index.md
 =======
@@ -205,7 +205,7 @@ nav:
       - topics/application-security/security-testing/index.md
       - DAST:
 <<<<<<< HEAD
-        - application-security/security-testing/dast/index.md
+        - topics/application-security/security-testing/dast/index.md
 =======
         - topics/application-security/security-testing/dast/index.md
         - topics/application-security/security-testing/dast/ast.md
