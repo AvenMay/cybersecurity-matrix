@@ -67,67 +67,75 @@ nav:
 
   - Offensive-Security:
     - offensive-security/index.md
-    - TTPs:
-      - offensive-security/ttps/index.md
-      - offensive-security/ttps/apt.md
-      - offensive-security/ttps/cyber-kill-chain.md
-      - offensive-security/ttps/att-ck.md
-    - Practices:
-      - offensive-security/practices/index.md
-      - offensive-security/practices/red-teaming.md
-      - offensive-security/practices/pentesting.md
-      - offensive-security/practices/bug-bounty.md
-      - offensive-security/practices/bas.md
-      - offensive-security/practices/vulnerability-assessment.md
-    - Training:
-      - offensive-security/training/index.md
-    - Operations:
-      - offensive-security/operations/index.md
-      - Reconnaissance:
-        - offensive-security/operations/reconnaissance/index.md
-      - Framework:
-        - offensive-security/operations/frameworks/index.md
+    - Preparation:
+      - TTPs:
+        - offensive-security/preparation/ttps/index.md
+        - offensive-security/preparation/ttps/apt.md
+        - offensive-security/preparation/ttps/cyber-kill-chain.md
+        - offensive-security/preparation/ttps/att-ck.md
+      - Operations:
+        - offensive-security/preparation/operations/index.md
+        - offensive-security/preparation/operations/red-teaming.md
+        - offensive-security/preparation/operations/pentesting.md
+        - offensive-security/preparation/operations/bug-bounty.md
+        - offensive-security/preparation/operations/bas.md
+        - offensive-security/preparation/operations/vulnerability-assessment.md
+      - Training:
+        - offensive-security/preparation/training/index.md
+    - Reconnaissance:
+      - offensive-security/reconnaissance/index.md
+    - Exploitation:
+      - offensive-security/exploit/index.md
       - Binary-Exploitation:
-        - offensive-security/operations/binary-exploitation/index.md
-      - Password-Attack:
-        - offensive-security/operations/password-attack/index.md
-      - Initial-Access:
-        - offensive-security/operations/initial-access/index.md
-      - Post-Exploitation:
-        - offensive-security/operations/post-exploitation/index.md
+        - offensive-security/exploit/binary-exploitation/index.md
+    - Credential-Attacks:
+      - offensive-security/credential-attacks/index.md
+    - Social-Engineering:
+      - offensive-security/social-engineering/index.md
+    - Post-Exploitation:
+      - offensive-security/post-exploitation/index.md
+      - Framework:
+        - offensive-security/post-exploitation/frameworks/index.md
       - C2:
-        - offensive-security/operations/c2/index.md
+        - offensive-security/post-exploitation/c2/index.md
       - Payloads:
-        - offensive-security/operations/payloads/index.md
-      - Resource-Development:
-        - offensive-security/operations/resource-development/index.md
+        - offensive-security/post-exploitation/payloads/index.md
+    - Lateral-Movement:
+      - offensive-security/lateral-movement/index.md
+    - Red-Team Infrastructure:
+      - offensive-security/redteam-infra/index.md
 
   - Defensive-Security:
     - defensive-security/index.md
-    - IOCs:
-      - defensive-security/iocs/index.md
-    - Practices:
-      - Blue-Teaming:
-        - defensive-security/practices/blue-teaming/index.md
-      - SOC:
-        - defensive-security/practices/soc/index.md
-    - Training:
-      - defensive-security/training/index.md
-    - Opeartions:
-      - defensive-security/operations/index.md
-      - Defense-In-Depth:
-        - defensive-security/operations/dind/index.md
-        - Zero-Trust:
-          - defensive-security/operations/dind/zero-trust/index.md
-      - Digital-Forensics:
-        - defensive-security/operations/digital-forensics/index.md
-      - Incident-Response:
-        - defensive-security/operations/incident-response/index.md
-        - defensive-security/operations/incident-response/digital-forensics.md
-      - Threat-Hunting:
-        - defensive-security/operations/threat-hunting/index.md
-      - Malware-Analysis:
-        - defensive-security/operations/malware-analysis/index.md
+    - Preparation:
+      - IOCs:
+        - defensive-security/preparation/iocs/index.md
+      - Operations:
+        - Blue-Teaming:
+          - defensive-security/preparation/operations/blue-teaming/index.md
+        - SOC:
+          - defensive-security/preparation/operations/soc/index.md
+      - Training:
+        - defensive-security/preparation/training/index.md
+    - SOC-Analyst:
+      - defensive-security/soc-analyst/index.md
+    - Threat-Intelligence:
+      - defensive-security/threat-intelligence/index.md
+    - Digital-Forensics:
+      - defensive-security/operations/digital-forensics/index.md
+    - Incident-Response:
+      - defensive-security/operations/incident-response/index.md
+      - defensive-security/operations/incident-response/digital-forensics.md
+    - DFIR:
+      - defensive-security/dfir/index.md
+    - Threat-Hunting:
+      - defensive-security/operations/threat-hunting/index.md
+    - Malware-Analysis:
+      - defensive-security/operations/malware-analysis/index.md
+    - Defense-System:
+      - defensive-security/operations/defense-system/index.md
+      - Zero-Trust:
+        - defensive-security/operations/defense-system/zero-trust/index.md
 
 
   - Cryptography: 
