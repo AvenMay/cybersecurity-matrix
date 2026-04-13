@@ -143,49 +143,7 @@ nav:
     - topics/cryptography/tools.md
     - topics/cryptography/attack.md
 
-  - Reverse-Engineering:
-    - topics/reverse-engineering/index.md
-    - Basic-Tools:
-      - topics/reverse-engineering/basic-tools/hex-editor.md
-    - Binary:
-      - topics/reverse-engineering/binary/index.md
-      # - topics/reverse-engineering/binary-analysis/static-analysis.md
-      # - topics/reverse-engineering/binary-analysis/dynamic-analysis.md
-      # - topics/reverse-engineering/binary-analysis/hybrid-analysis.md
-      - Tools:
-        - topics/reverse-engineering/binary/tools/disassembler.md
-        - topics/reverse-engineering/binary/tools/debugger.md
-        - topics/reverse-engineering/binary/tools/symbolic-execution.md
-        - topics/reverse-engineering/binary/tools/emulator.md
-        - topics/reverse-engineering/binary/tools/packers.md
-        - topics/reverse-engineering/binary/tools/unpackers.md
-      - Windows/PE:
-        - topics/reverse-engineering/binary/pe/index.md
-        - topics/reverse-engineering/binary/pe/debugger.md
-      - Linux/ELF:
-        - topics/reverse-engineering/binary/elf/index.md
-      - macOS/Mach-O:
-        - topics/reverse-engineering/binary/mach-o/index.md
-    - File-Formats:
-      - topics/reverse-engineering/file-formats/index.md
-      # - topics/reverse-engineering/file-formats/pdf.md
-      # - topics/reverse-engineering/file-formats/image-formats.md
-      # - topics/reverse-engineering/file-formats/audio-video.md
-    - Protocol:
-      - topics/reverse-engineering/protocol/index.md
-    - Kernel:
-      - topics/reverse-engineering/kernel/index.md
-    - Bytecode:
-      - topics/reverse-engineering/bytecode/index.md
-      - topics/reverse-engineering/bytecode/jvm.md
-      - topics/reverse-engineering/bytecode/clr.md
-      - topics/reverse-engineering/bytecode/pyc.md
-    - Firmware:
-      - topics/reverse-engineering/firmware/index.md
-    - Hardware:
-      - topics/reverse-engineering/hardware/index.md
-
-  - App/Web-Security:
+  - App-Security:
     - topics/app-security/index.md
     - Reference:
       - topics/app-security/reference/index.md
@@ -245,12 +203,53 @@ nav:
       - topics/network-security/protection/index.md
       - topics/network-security/protection/firewall.md
 
+  - Cloud-Security:
+    - topics/cloud-security/index.md
+
+  - Reverse-Engineering:
+    - topics/reverse-engineering/index.md
+    - Basic-Tools:
+      - topics/reverse-engineering/basic-tools/hex-editor.md
+    - Binary:
+      - topics/reverse-engineering/binary/index.md
+      # - topics/reverse-engineering/binary-analysis/static-analysis.md
+      # - topics/reverse-engineering/binary-analysis/dynamic-analysis.md
+      # - topics/reverse-engineering/binary-analysis/hybrid-analysis.md
+      - Tools:
+        - topics/reverse-engineering/binary/tools/disassembler.md
+        - topics/reverse-engineering/binary/tools/debugger.md
+        - topics/reverse-engineering/binary/tools/symbolic-execution.md
+        - topics/reverse-engineering/binary/tools/emulator.md
+        - topics/reverse-engineering/binary/tools/packers.md
+        - topics/reverse-engineering/binary/tools/unpackers.md
+      - Windows/PE:
+        - topics/reverse-engineering/binary/pe/index.md
+        - topics/reverse-engineering/binary/pe/debugger.md
+      - Linux/ELF:
+        - topics/reverse-engineering/binary/elf/index.md
+      - macOS/Mach-O:
+        - topics/reverse-engineering/binary/mach-o/index.md
+    - File-Formats:
+      - topics/reverse-engineering/file-formats/index.md
+      # - topics/reverse-engineering/file-formats/pdf.md
+      # - topics/reverse-engineering/file-formats/image-formats.md
+      # - topics/reverse-engineering/file-formats/audio-video.md
+    - Protocol:
+      - topics/reverse-engineering/protocol/index.md
+    - Kernel:
+      - topics/reverse-engineering/kernel/index.md
+    - Bytecode:
+      - topics/reverse-engineering/bytecode/index.md
+      - topics/reverse-engineering/bytecode/jvm.md
+      - topics/reverse-engineering/bytecode/clr.md
+      - topics/reverse-engineering/bytecode/pyc.md
+    - Firmware:
+      - topics/reverse-engineering/firmware/index.md
+    - Hardware:
+      - topics/reverse-engineering/hardware/index.md
 
   - System-Security:
     - topics/system-security/index.md
-
-  - Cloud-Security:
-    - topics/cloud-security/index.md
 
   - IoT-Security:
     - topics/iot-security/index.md
