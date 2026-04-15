@@ -3,7 +3,7 @@
 ## Common
 
 - CyberChef
-- OpenSSL/LibreSSL
+- OpenSSL
 - GnuPG
 
 ## Disk Encrypto
