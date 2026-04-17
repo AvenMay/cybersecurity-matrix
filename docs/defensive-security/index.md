@@ -1,7 +1,11 @@
 # Defensive-Security
 
-- Defense-System
+- Preparation
+- SOC-Analyst
+- Threat-Intelligence
 - Digital-Forensics
 - Incident-Response
-- Malware-Analysis
+- DFIR
 - Threat-Hunting
+- Malware-Analysis
+- Defense-System

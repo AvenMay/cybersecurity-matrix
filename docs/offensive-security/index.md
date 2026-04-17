@@ -1,8 +1,10 @@
 # Offensive-Security
 
+- Preparation
 - Reconnaissance
-- Exploit
-- Initial-Access
-- Payloads
-- C2
-- Post-Exploit
+- Exploitation
+- Credential-Attacks
+- Social-Engineering
+- Post-Exploitation
+- Lateral-Movement
+- Red-Team Infrastructure
