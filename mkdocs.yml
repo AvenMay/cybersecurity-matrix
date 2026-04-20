@@ -55,191 +55,191 @@ theme:
 nav:
 
   - Offensive-Security:
-    - offensive-security/index.md
+    - offensive/index.md
     - Preparation:
       - TTPs:
-        - offensive-security/preparation/ttps/index.md
-        - offensive-security/preparation/ttps/apt.md
-        - offensive-security/preparation/ttps/cyber-kill-chain.md
-        - offensive-security/preparation/ttps/att-ck.md
+        - offensive/preparation/ttps/index.md
+        - offensive/preparation/ttps/apt.md
+        - offensive/preparation/ttps/cyber-kill-chain.md
+        - offensive/preparation/ttps/att-ck.md
       - Operations:
-        - offensive-security/preparation/operations/index.md
-        - offensive-security/preparation/operations/red-teaming.md
-        - offensive-security/preparation/operations/pentesting.md
+        - offensive/preparation/operations/index.md
+        - offensive/preparation/operations/red-teaming.md
+        - offensive/preparation/operations/pentesting.md
       - Training:
-        - offensive-security/preparation/training/index.md
+        - offensive/preparation/training/index.md
     - Reconnaissance:
-      - offensive-security/reconnaissance/index.md
+      - offensive/reconnaissance/index.md
     - Exploitation:
-      - offensive-security/exploit/index.md
+      - offensive/exploit/index.md
       - Binary-Exploitation:
-        - offensive-security/exploit/binary-exploitation/index.md
+        - offensive/exploit/binary-exploitation/index.md
     - Credential-Attacks:
-      - offensive-security/credential-attacks/index.md
+      - offensive/credential-attacks/index.md
     - Social-Engineering:
-      - offensive-security/social-engineering/index.md
+      - offensive/social-engineering/index.md
     - Post-Exploitation:
-      - offensive-security/post-exploitation/index.md
+      - offensive/post-exploitation/index.md
       - Framework:
-        - offensive-security/post-exploitation/frameworks/index.md
+        - offensive/post-exploitation/frameworks/index.md
       - C2:
-        - offensive-security/post-exploitation/c2/index.md
+        - offensive/post-exploitation/c2/index.md
       - Payloads:
-        - offensive-security/post-exploitation/payloads/index.md
+        - offensive/post-exploitation/payloads/index.md
     - Lateral-Movement:
-      - offensive-security/lateral-movement/index.md
+      - offensive/lateral-movement/index.md
     - Red-Team Infrastructure:
-      - offensive-security/redteam-infra/index.md
+      - offensive/redteam-infra/index.md
 
   - Defensive-Security:
-    - defensive-security/index.md
+    - defensive/index.md
     - Preparation:
       - IOCs:
-        - defensive-security/preparation/iocs/index.md
+        - defensive/preparation/iocs/index.md
       - Operations:
         - Blue-Teaming:
-          - defensive-security/preparation/operations/blue-teaming/index.md
+          - defensive/preparation/operations/blue-teaming/index.md
         - SOC:
-          - defensive-security/preparation/operations/soc/index.md
+          - defensive/preparation/operations/soc/index.md
       - Training:
-        - defensive-security/preparation/training/index.md
+        - defensive/preparation/training/index.md
     - SOC-Analyst:
-      - defensive-security/soc-analyst/index.md
+      - defensive/soc-analyst/index.md
     - Threat-Intelligence:
-      - defensive-security/threat-intelligence/index.md
+      - defensive/threat-intelligence/index.md
     - Digital-Forensics:
-      - defensive-security/operations/digital-forensics/index.md
+      - defensive/operations/digital-forensics/index.md
     - Incident-Response:
-      - defensive-security/operations/incident-response/index.md
-      - defensive-security/operations/incident-response/digital-forensics.md
+      - defensive/operations/incident-response/index.md
+      - defensive/operations/incident-response/digital-forensics.md
     - DFIR:
-      - defensive-security/dfir/index.md
+      - defensive/dfir/index.md
     - Threat-Hunting:
-      - defensive-security/operations/threat-hunting/index.md
+      - defensive/operations/threat-hunting/index.md
     - Malware-Analysis:
-      - defensive-security/operations/malware-analysis/index.md
+      - defensive/operations/malware-analysis/index.md
     - Defense-System:
-      - defensive-security/operations/defense-system/index.md
+      - defensive/operations/defense-system/index.md
       - Zero-Trust:
-        - defensive-security/operations/defense-system/zero-trust/index.md
+        - defensive/operations/defense-system/zero-trust/index.md
 
-  - Cryptography: 
-    - topics/cryptography/index.md
-    - topics/cryptography/encoding.md
-    - topics/cryptography/confusion.md
-    - topics/cryptography/tools.md
-    - topics/cryptography/attack.md
+  - crypto: 
+    - topics/crypto/index.md
+    - topics/crypto/encoding.md
+    - topics/crypto/confusion.md
+    - topics/crypto/tools.md
+    - topics/crypto/attack.md
 
   - Applications:
-    - topics/app-security/index.md
+    - topics/appsec/index.md
     - Preparation:
-      - topics/app-security/preparation/index.md
+      - topics/appsec/preparation/index.md
     - Server-Side:
-      - topics/app-security/server-side/index.md
+      - topics/appsec/server-side/index.md
     - Web-Client:
-      - topics/app-security/web-client/index.md
+      - topics/appsec/web-client/index.md
     - Mobile-Security:
-      - topics/app-security/mobile-sec/index.md
+      - topics/appsec/mobile-sec/index.md
     - Protocols:
-      - topics/app-security/protocols/index.md
+      - topics/appsec/protocols/index.md
     - Database:
-      - topics/app-security/database/index.md
+      - topics/appsec/database/index.md
     - Reproduction:
-      - topics/app-security/reproduction/index.md
+      - topics/appsec/reproduction/index.md
     - Protection:
-      - topics/app-security/protection/waf.md
-      - topics/app-security/protection/rasp.md 
+      - topics/appsec/protection/waf.md
+      - topics/appsec/protection/rasp.md 
 
   - Network:
-    - topics/network-security/index.md
+    - topics/netsec/index.md
     - Traffic-Analysis:
-      - topics/network-security/traffic/index.md
+      - topics/netsec/traffic/index.md
       - Packet-Capture:
-        - topics/network-security/traffic/packet-capture/index.md
+        - topics/netsec/traffic/packet-capture/index.md
     - Protocol-Security:
-      - topics/network-security/protocol-security/index.md
+      - topics/netsec/protocol-security/index.md
       - E2EE:
-        - topics/network-security/protocol-security/e2ee/index.md
+        - topics/netsec/protocol-security/e2ee/index.md
     - Network-Attack:
-      - topics/network-security/attack/index.md
+      - topics/netsec/attack/index.md
       - MitM:
-        - topics/network-security/attack/mitm/index.md
+        - topics/netsec/attack/mitm/index.md
       - NAT-Traversal:
-        - topics/network-security/attack/nat-traversal/index.md
+        - topics/netsec/attack/nat-traversal/index.md
       - Pentesting:
-        - topics/network-security/attack/pentesting/index.md
+        - topics/netsec/attack/pentesting/index.md
     - Protection:
-      - topics/network-security/protection/index.md
-      - topics/network-security/protection/firewall.md
+      - topics/netsec/protection/index.md
+      - topics/netsec/protection/firewall.md
     - Wireless-Security:
-      - topics/network-security/wireless-security/index.md
+      - topics/netsec/wireless-security/index.md
 
   - Cloud:
-    - topics/cloud-security/index.md
+    - topics/cloudsec/index.md
 
   - Reverse-Engineering:
-    - topics/reverse-engineering/index.md
+    - topics/reverse/index.md
     - Basic-Tools:
-      - topics/reverse-engineering/basic-tools/hex-editor.md
+      - topics/reverse/basic-tools/hex-editor.md
     - Binary:
-      - topics/reverse-engineering/binary/index.md
-      # - topics/reverse-engineering/binary-analysis/static-analysis.md
-      # - topics/reverse-engineering/binary-analysis/dynamic-analysis.md
-      # - topics/reverse-engineering/binary-analysis/hybrid-analysis.md
+      - topics/reverse/binary/index.md
+      # - topics/reverse/binary-analysis/static-analysis.md
+      # - topics/reverse/binary-analysis/dynamic-analysis.md
+      # - topics/reverse/binary-analysis/hybrid-analysis.md
       - Tools:
-        - topics/reverse-engineering/binary/tools/disassembler.md
-        - topics/reverse-engineering/binary/tools/debugger.md
-        - topics/reverse-engineering/binary/tools/symbolic-execution.md
-        - topics/reverse-engineering/binary/tools/emulator.md
-        - topics/reverse-engineering/binary/tools/packers.md
-        - topics/reverse-engineering/binary/tools/unpackers.md
+        - topics/reverse/binary/tools/disassembler.md
+        - topics/reverse/binary/tools/debugger.md
+        - topics/reverse/binary/tools/symbolic-execution.md
+        - topics/reverse/binary/tools/emulator.md
+        - topics/reverse/binary/tools/packers.md
+        - topics/reverse/binary/tools/unpackers.md
       - Windows/PE:
-        - topics/reverse-engineering/binary/pe/index.md
-        - topics/reverse-engineering/binary/pe/debugger.md
+        - topics/reverse/binary/pe/index.md
+        - topics/reverse/binary/pe/debugger.md
       - Linux/ELF:
-        - topics/reverse-engineering/binary/elf/index.md
+        - topics/reverse/binary/elf/index.md
       - macOS/Mach-O:
-        - topics/reverse-engineering/binary/mach-o/index.md
+        - topics/reverse/binary/mach-o/index.md
     - File-Formats:
-      - topics/reverse-engineering/file-formats/index.md
-      # - topics/reverse-engineering/file-formats/pdf.md
-      # - topics/reverse-engineering/file-formats/image-formats.md
-      # - topics/reverse-engineering/file-formats/audio-video.md
+      - topics/reverse/file-formats/index.md
+      # - topics/reverse/file-formats/pdf.md
+      # - topics/reverse/file-formats/image-formats.md
+      # - topics/reverse/file-formats/audio-video.md
     - Protocol:
-      - topics/reverse-engineering/protocol/index.md
+      - topics/reverse/protocol/index.md
     - Kernel:
-      - topics/reverse-engineering/kernel/index.md
+      - topics/reverse/kernel/index.md
     - Bytecode:
-      - topics/reverse-engineering/bytecode/index.md
-      - topics/reverse-engineering/bytecode/jvm.md
-      - topics/reverse-engineering/bytecode/clr.md
-      - topics/reverse-engineering/bytecode/pyc.md
+      - topics/reverse/bytecode/index.md
+      - topics/reverse/bytecode/jvm.md
+      - topics/reverse/bytecode/clr.md
+      - topics/reverse/bytecode/pyc.md
     - Firmware:
-      - topics/reverse-engineering/firmware/index.md
+      - topics/reverse/firmware/index.md
     - Hardware:
-      - topics/reverse-engineering/hardware/index.md
+      - topics/reverse/hardware/index.md
 
   - System:
-    - topics/system-security/index.md
+    - topics/syssec/index.md
     - Binary-Exploitation:
-      - topics/system-security/bin-exp/index.md
+      - topics/syssec/bin-exp/index.md
     - Malware-Analysis:
-      - topics/system-security/malware-analysis/index.md
+      - topics/syssec/malware-analysis/index.md
     - Windows:
-      - topics/system-security/windows/index.md
+      - topics/syssec/windows/index.md
     - Activity-Directory:
-      - topics/system-security/ad/index.md
+      - topics/syssec/ad/index.md
     - Linux:
-      - topics/system-security/linux/index.md
+      - topics/syssec/linux/index.md
     - macOS:
-      - topics/system-security/macos/index.md
+      - topics/syssec/macos/index.md
     - Mobile:
-      - topics/system-security/mobile/index.md
+      - topics/syssec/mobile/index.md
     - Endpoint-Security:
-      - topics/system-security/endpoint-security/index.md
+      - topics/syssec/endpoint-security/index.md
 
   - IoT:
-    - topics/iot-security/index.md
+    - topics/iotsec/index.md
 
   - CTF:
     - ctf/index.md
