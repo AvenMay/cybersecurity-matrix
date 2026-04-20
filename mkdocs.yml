@@ -123,7 +123,7 @@ nav:
       - Zero-Trust:
         - defensive/operations/defense-system/zero-trust/index.md
 
-  - crypto: 
+  - Cryptography: 
     - topics/crypto/index.md
     - topics/crypto/encoding.md
     - topics/crypto/confusion.md
