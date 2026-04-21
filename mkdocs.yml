@@ -54,6 +54,15 @@ theme:
 # Page tree
 nav:
 
+  - CTF:
+    - ctf/index.md
+    - ctf/event.md
+    - Training:
+      - ctf/training/index.md
+    - Tools:
+      - ctf/tools/index.md
+    - Writeup:
+      - ctf/writeup/index.md
   - Offensive-Security:
     - offensive/index.md
     - Preparation:
@@ -241,15 +250,7 @@ nav:
   - IoT:
     - topics/iotsec/index.md
 
-  - CTF:
-    - ctf/index.md
-    - ctf/event.md
-    - Training:
-      - ctf/training/index.md
-    - Tools:
-      - ctf/tools/index.md
-    - Writeup:
-      - ctf/writeup/index.md
+
     
 
 plugins:
