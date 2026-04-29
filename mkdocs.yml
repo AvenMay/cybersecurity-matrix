@@ -133,32 +133,23 @@ nav:
       - Zero-Trust:
         - defensive/operations/defense-system/zero-trust/index.md
 
-  - Cryptography: 
-    - topics/crypto/index.md
-    - topics/crypto/encoding.md
-    - topics/crypto/confusion.md
-    - topics/crypto/tools.md
-    - topics/crypto/attack.md
-
-  - Applications:
-    - topics/appsec/index.md
+  - Web:
+    - topics/websec/index.md
     - Preparation:
-      - topics/appsec/preparation/index.md
+      - topics/websec/preparation/index.md
     - Server-Side:
-      - topics/appsec/server-side/index.md
-    - Web-Client:
-      - topics/appsec/web-client/index.md
-    - Mobile-Security:
-      - topics/appsec/mobile-sec/index.md
+      - topics/websec/server-side/index.md
+    - Web-Browser:
+      - topics/websec/web-client/index.md
     - Protocols:
-      - topics/appsec/protocols/index.md
+      - topics/websec/protocols/index.md
     - Database:
-      - topics/appsec/database/index.md
+      - topics/websec/database/index.md
     - Reproduction:
-      - topics/appsec/reproduction/index.md
+      - topics/websec/reproduction/index.md
     - Protection:
-      - topics/appsec/protection/waf.md
-      - topics/appsec/protection/rasp.md 
+      - topics/websec/protection/waf.md
+      - topics/websec/protection/rasp.md 
 
   - Network:
     - topics/netsec/index.md
@@ -186,6 +177,41 @@ nav:
 
   - Cloud:
     - topics/cloudsec/index.md
+
+  
+  - Mobile:
+    - topics/mobsec/index.md
+
+  
+
+  - System:
+    - topics/syssec/index.md
+    - Binary-Exploitation:
+      - topics/syssec/bin-exp/index.md
+    - Malware-Analysis:
+      - topics/syssec/malware-analysis/index.md
+    - Windows:
+      - topics/syssec/windows/index.md
+    - Activity-Directory:
+      - topics/syssec/ad/index.md
+    - Linux:
+      - topics/syssec/linux/index.md
+    - macOS:
+      - topics/syssec/macos/index.md
+    - Mobile:
+      - topics/syssec/mobile/index.md
+    - Endpoint-Security:
+      - topics/syssec/endpoint-security/index.md
+
+  - IoT:
+    - topics/iotsec/index.md
+
+  - Cryptography: 
+    - topics/crypto/index.md
+    - topics/crypto/encoding.md
+    - topics/crypto/confusion.md
+    - topics/crypto/tools.md
+    - topics/crypto/attack.md
 
   - Reverse-Engineering:
     - topics/reverse/index.md
@@ -228,30 +254,6 @@ nav:
       - topics/reverse/firmware/index.md
     - Hardware:
       - topics/reverse/hardware/index.md
-
-  - System:
-    - topics/syssec/index.md
-    - Binary-Exploitation:
-      - topics/syssec/bin-exp/index.md
-    - Malware-Analysis:
-      - topics/syssec/malware-analysis/index.md
-    - Windows:
-      - topics/syssec/windows/index.md
-    - Activity-Directory:
-      - topics/syssec/ad/index.md
-    - Linux:
-      - topics/syssec/linux/index.md
-    - macOS:
-      - topics/syssec/macos/index.md
-    - Mobile:
-      - topics/syssec/mobile/index.md
-    - Endpoint-Security:
-      - topics/syssec/endpoint-security/index.md
-
-  - IoT:
-    - topics/iotsec/index.md
-
-
     
 
 plugins:
