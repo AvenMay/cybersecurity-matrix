@@ -133,6 +133,13 @@ nav:
       - Zero-Trust:
         - defensive/operations/defense-system/zero-trust/index.md
 
+  - Cryptography: 
+    - topics/crypto/index.md
+    - topics/crypto/encoding.md
+    - topics/crypto/confusion.md
+    - topics/crypto/tools.md
+    - topics/crypto/attack.md
+
   - Web:
     - topics/websec/index.md
     - Preparation:
@@ -178,40 +185,6 @@ nav:
   - Cloud:
     - topics/cloudsec/index.md
 
-  
-  - Mobile:
-    - topics/mobsec/index.md
-
-  
-
-  - System:
-    - topics/syssec/index.md
-    - Binary-Exploitation:
-      - topics/syssec/bin-exp/index.md
-    - Malware-Analysis:
-      - topics/syssec/malware-analysis/index.md
-    - Windows:
-      - topics/syssec/windows/index.md
-    - Activity-Directory:
-      - topics/syssec/ad/index.md
-    - Linux:
-      - topics/syssec/linux/index.md
-    - macOS:
-      - topics/syssec/macos/index.md
-    - Mobile:
-      - topics/syssec/mobile/index.md
-    - Endpoint-Security:
-      - topics/syssec/endpoint-security/index.md
-
-  - IoT:
-    - topics/iotsec/index.md
-
-  - Cryptography: 
-    - topics/crypto/index.md
-    - topics/crypto/encoding.md
-    - topics/crypto/confusion.md
-    - topics/crypto/tools.md
-    - topics/crypto/attack.md
 
   - Reverse-Engineering:
     - topics/reverse/index.md
@@ -254,6 +227,32 @@ nav:
       - topics/reverse/firmware/index.md
     - Hardware:
       - topics/reverse/hardware/index.md
+
+  - System:
+    - topics/syssec/index.md
+    - Binary-Exploitation:
+      - topics/syssec/bin-exp/index.md
+    - Malware-Analysis:
+      - topics/syssec/malware-analysis/index.md
+    - Windows:
+      - topics/syssec/windows/index.md
+    - Activity-Directory:
+      - topics/syssec/ad/index.md
+    - Linux:
+      - topics/syssec/linux/index.md
+    - macOS:
+      - topics/syssec/macos/index.md
+    - Mobile:
+      - topics/syssec/mobile/index.md
+    - Endpoint-Security:
+      - topics/syssec/endpoint-security/index.md
+
+  - Mobile:
+    - topics/mobsec/index.md
+
+  - IoT:
+    - topics/iotsec/index.md
+
     
 
 plugins:
