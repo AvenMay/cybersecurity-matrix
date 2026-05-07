@@ -242,8 +242,6 @@ nav:
       - topics/syssec/linux/index.md
     - macOS:
       - topics/syssec/macos/index.md
-    - Mobile:
-      - topics/syssec/mobile/index.md
     - Endpoint-Security:
       - topics/syssec/endpoint-security/index.md
 
@@ -289,7 +287,7 @@ extra:
 extra_javascript:
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
   - javascripts/custom.js
-  
+
 extra_css:
   - stylesheets/custom.css
 
